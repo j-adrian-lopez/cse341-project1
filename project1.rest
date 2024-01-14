@@ -1,0 +1,6 @@
+### Request - getAll
+https://cse341-project01-afhj.onrender.com/users
+
+
+###Request - getSingle
+https://cse341-project01-afhj.onrender.com/users/65a30f9c18ab72cdd0d9a2e3
