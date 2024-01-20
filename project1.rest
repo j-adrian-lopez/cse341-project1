@@ -4,3 +4,34 @@ https://cse341-project01-afhj.onrender.com/users
 
 ###Request - getSingle
 https://cse341-project01-afhj.onrender.com/users/65a30f9c18ab72cdd0d9a2e3
+
+// Localhost
+### Get All
+GET http://localhost:3000/users
+
+### Create contact
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Mario",
+    "lastName": "Jara",
+    "email": "majara@email.com",
+    "favoriteColor": "purple",
+    "birthday": "March 05"
+}
+
+### Update user
+PUT http://localhost:3000/users/65ac291615e0411eb65778cc HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Mario",
+    "lastName": "Jara",
+    "email": "majara@email.com",
+    "favoriteColor": "lilac",
+    "birthday": "March 05"
+}
+
+### Delete user
+DELETE http://localhost:3000/users/65ac291615e0411eb65778cc
