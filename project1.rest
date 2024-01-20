@@ -1,9 +1,38 @@
+// Render Link
+
 ### Request - getAll
-https://cse341-project01-afhj.onrender.com/users
+GET https://cse341-project01-afhj.onrender.com/users
 
 
 ###Request - getSingle
-https://cse341-project01-afhj.onrender.com/users/65a30f9c18ab72cdd0d9a2e3
+GET https://cse341-project01-afhj.onrender.com/users/65a30f9c18ab72cdd0d9a2e3
+
+### Create Contact
+POST https://cse341-project01-afhj.onrender.com/users
+content-type: application/json
+
+{
+    "firstName": "Mario",
+    "lastName": "Jara",
+    "email": "majara@email.com",
+    "favoriteColor": "purple",
+    "birthday": "March 05"
+}
+
+### Update user
+PUT https://cse341-project01-afhj.onrender.com/users
+content-type: application/json
+
+{
+    "firstName": "Mario",
+    "lastName": "Jara",
+    "email": "majara@email.com",
+    "favoriteColor": "lilac",
+    "birthday": "March 05"
+}
+
+### Delete user
+DELETE http://localhost:3000/users/65ac3740d1cdaaa10e3c33f2
 
 // Localhost
 ### Get All
