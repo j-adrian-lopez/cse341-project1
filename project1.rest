@@ -51,7 +51,7 @@ content-type: application/json
 }
 
 ### Update user
-PUT http://localhost:3000/users/65ac291615e0411eb65778cc HTTP/1.1
+PUT http://localhost:3000/users/65ac3740d1cdaaa10e3c33f2 HTTP/1.1
 content-type: application/json
 
 {
@@ -63,4 +63,4 @@ content-type: application/json
 }
 
 ### Delete user
-DELETE http://localhost:3000/users/65ac291615e0411eb65778cc
+DELETE http://localhost:3000/users/65ac3740d1cdaaa10e3c33f2
