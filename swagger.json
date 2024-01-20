@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "My API",
+    "title": "Contacts API",
     "description": "Contacts API",
     "version": "1.0.0"
   },
@@ -20,9 +20,10 @@
         }
       }
     },
+
     "/users/": {
       "get": {
-        "tags": ["Users"],
+        "tags": ["Contacts"],
         "description": "",
         "produces": ["application/json"],
         "responses": {
@@ -32,7 +33,7 @@
         }
       },
       "post": {
-        "tags": ["Users"],
+        "tags": ["Contacts"],
         "description": "",
         "parameters": [
           {
@@ -72,7 +73,7 @@
     },
     "/users/{id}": {
       "get": {
-        "tags": ["Users"],
+        "tags": ["Contacts"],
         "description": "",
         "produces": ["application/json"],
         "parameters": [
@@ -90,7 +91,7 @@
         }
       },
       "put": {
-        "tags": ["Users"],
+        "tags": ["Contacts"],
         "description": "",
         "parameters": [
           {
@@ -134,7 +135,7 @@
         }
       },
       "delete": {
-        "tags": ["Users"],
+        "tags": ["Contacts"],
         "description": "",
         "parameters": [
           {
